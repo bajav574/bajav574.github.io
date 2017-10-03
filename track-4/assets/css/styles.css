@@ -1,0 +1,34 @@
+body {
+	background: #000;
+	color: #fff;
+	font-family: arial;
+	font-size: 20px;
+	line-height: 28px;
+	letter-spacing: 5px;
+	margin: 0;
+	padding: 50px;
+}
+
+a {
+	color: #fff;
+}
+
+
+.square {
+margin: 0 20px 20px 0;
+padding: 50px;
+width: 700px;
+height: 450px;
+background: #000;
+color: #000;
+position: relative;
+margin: 0 auto;
+}
+
+ img { width: 100%; 
+float:left;
+margin-bottom: 20px}
+
+ div {
+ 	margin-bottom: 40px;
+ }
