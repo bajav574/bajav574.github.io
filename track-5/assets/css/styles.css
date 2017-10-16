@@ -1,35 +1,83 @@
+* { vertical-align: top; }
+
 body {
 	background: #E05E5E;
 	color: #fff;
 	font-family: arial;
-	font-size: 20px;
+	font-size: 0px;
 	line-height: 28px;
 	letter-spacing: 5px;
 	margin: 0;
 	padding: 50px;
 }
 
-.c1 {
+.message-wrapper { width: 320px; }
+
+
+.message { 
+	opacity: 0;
+	width: 200px;
+	height: 100px;
+	border-radius: 5px;
+	display: inline-block;
+	font-size: 20px;
+}
+
+.tswrap {
+	color: #fff;
+	display: inline-block;
+	width: 300px;
+	height: 100px;
+	font-family: monospace;
 	margin: 0px 0px 70px 881px;
+	position: relative;
 }
 
-.c2 {
-	margin: 149px 10px 0px 881px;
+.tswrap2 {
+	color: #fff;
+	display: inline-block;
+	width: 300px;
+	height: 100px;
+	font-family: monospace;
+	margin: 149px 0px 70px 881px;
+	position: relative;
 }
 
-.c3 {
-	margin: 149px 0px 0px 881px;
+.tswrap3 {
+	color: #fff;
+	display: inline-block;
+	width: 300px;
+	height: 100px;
+	font-family: monospace;
+	margin: 149px 0px 70px 881px;
+	position: relative;
 }
 
-.c4 {
-	margin: 149px 0px 0px 881px;
-	margin-bottom:- -20px;
+.tswrap4 {
+	color: #fff;
+	display: inline-block;
+	width: 300px;
+	height: 100px;
+	font-family: monospace;
+	margin: 149px 0px 70px 881px;
+	position: relative;
 }
 
-.c5 {
-	margin: 0px 0px 0px 0px;
+.timestamp {
+	font-size: 30px;
+	position: absolute;
+	top: 50%;
+	right: 0;
+	transform: translateY(-50%);
 }
 
-.c6 {
-	margin: 0px 0px 70px 0px;
+.message-wrapper:hover .message {
+	opacity: 100;
+}
+
+
+
+img {
+
+	width: 320px;
 }
