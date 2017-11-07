@@ -1,0 +1,39 @@
+* { vertical-align: top; }
+
+body {
+	background-color: #181818;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 0px;
+	letter-spacing: 5px;
+	margin:0px;
+	padding: 10px;
+}
+
+a {
+	color:#E4E4E4;
+	text-decoration:none;
+}
+
+.wrapper {
+	width: 1000px;
+	margin: 0 auto 0 auto;
+}
+	
+.c {
+	color:#E4E4E4;
+	font-size: 15px;
+	display: inline-block;
+	margin:100px 0px 100px 0px;
+}
+
+.c5 { width: 700px; }
+
+.c6 {width: 350px;
+	 margin: -350px 250px 50px 750px;
+position:relative;}
+
+.no-left-gutter { margin-left: 0; }
+.no-right-gutter { margin-right: 0; }
+.whitespace-fix { font-size: 0; }
+
+img { width: 100%; }
