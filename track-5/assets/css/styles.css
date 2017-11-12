@@ -37,7 +37,7 @@ a:hover{
 	white-space:nowrap;
 	overflow: hidden;
 	-webkit-animation: type 5s steps(50, end);
-    animation: type 5s steps(50, end);
+    animation: type 5s steps(40, end);
 }
 
 @keyframes type{
