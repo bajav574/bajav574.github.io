@@ -3,51 +3,47 @@
 body {
 	background: #E05E5E;
 	color: #fff;
-	font-family: arial;
-	font-size: 0px;
+	font-family: "bree-serif";
+	font-size: 120px;
 	line-height: 28px;
-	letter-spacing: 5px;
+	letter-spacing: 20px;
 	margin: 0;
 	padding: 50px;
 }
 
-.message-wrapper { width: 320px; }
-
-
-.message { 
-	opacity: 0;
-	width: 200px;
-	height: 100px;
-	border-radius: 5px;
-	display: inline-block;
-	font-size: 20px;
-}
-
-.tswrap {
+a{
 	color: #fff;
-	display: inline-block;
-	width: 300px;
-	height: 100px;
-	font-family: monospace;
-	margin: 0px 0px 70px 881px;
-	position: relative;
+	text-decoration: none;
 }
 
-.timestamp {
+a:hover{
+	color:#FAF8AA;
+	transition: color 1s ease-in-out;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+}
+
+.typewriter{
 	font-size: 30px;
-	position: absolute;
-	top: 50%;
-	right: 0;
-	transform: translateY(-50%);
+	letter-spacing: 5px;
+	width: 20em;
+	white-space:nowrap;
+	overflow: hidden;
+	-webkit-animation: type 5s steps(50, end);
+    animation: type 5s steps(50, end);
 }
 
-.message-wrapper:hover .message {
-	opacity: 100;
+@keyframes type{
+    from { width: 0; }
 }
 
-
-
-img {
-
-	width: 320px;
+@-webkit-keyframes type{
+    from { width: 0; }
 }
