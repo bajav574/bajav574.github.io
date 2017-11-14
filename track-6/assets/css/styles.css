@@ -1,33 +1,92 @@
+* { 
+vertical-align: top;
+box-sizing: border-box; }
+/* this makes padding inwards instead of outwards*/
+
 body {
-	background-color: #FFFFFF;
-	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"s;
-	font-size: 0px;
-	letter-spacing: 2px;
+margin: 0;
+padding: 0;
+font-size: 0;
 }
 
-.wrapper{
-	background-color: #fff;
-	font-size: 20px;
-	top: 50%;
-  	left: 50%;
-	position: relative;
+html, body { height: 100%; }
+/* because body carries wrapper and column which dont have a set height*/
+
+.wrapper {
+width: 120%;
+height: 100%;
 }
 
-//.button {
-//	opacity: 0;
-//	width: 200px;
-//	height: 100px;
-//	border-radius: 5px;
-//	display: inline-block;
-//	font-size: 20px;
-//}
-
-.wrapper:active .button{
-	opacity: 100;
+.column {
+width: 40%;
+display: inline-block;
+height: 100%;
 }
 
-.wrapper:focus {opacity:100;}
-
-img {
-	width: 470px;
+.content {
+background: #f1f1f1;
+font-size: 20px;
 }
+
+ul, li {
+list-style: none;
+margin: 0;
+padding: 0
+;
+}
+
+.nav-item {
+border: 1px solid #000;
+padding: 10px 20px;
+display:inline-block;
+font-size: 20px;
+margin: 0 15px 15px 0;
+cursor: pointer;
+}
+
+/*to put these together means the one you're hovered over connect with active after functiopn*/
+.nav-item:hover, .nav-item.active {
+background: #000;
+color: #fff;
+}
+
+.content.to { background:url(../img/1.png)}
+.content.the { background:url(../img/2.png) }
+.content.moon { background:url(../img/3.png) }
+.content.and { background:url(../img/4.png) }
+.content.back { background:url(../img/5.png) }
+
+img { 100%
+	450px; }
+
+.lightbox.beyonce {
+width: 100%;
+height: 100%;
+background: #000;
+color: #fff;
+position: fixed;
+top: 0;
+left: 0;
+}
+
+
+.slay {
+font-size: 200px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%)
+}
+
+.close-button {
+position: absolute;
+top: -5px;
+right: 30px;
+font-size: 100px;
+font-family: Helvetica, Arial, sans-serif;
+cursor: pointer;
+}
+
+.audio { opacity: 0; }
+
+.hide { display: none; }

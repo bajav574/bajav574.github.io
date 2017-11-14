@@ -1,25 +1,42 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>To The Moon</title>
-    <link href="assets/css/styles.css" media="all" rel="stylesheet" />
-    <link rel="shortcut icon" href="" />
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  </head>
+  <head>
+    <title>the moon and back</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="assets/css/styles.css" media="all" rel="stylesheet" />
+    <link rel="shortcut icon" href="" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  </head>
 
-  
-  <body>
-  
-  <div class="wrapper"> Background
-  
-  <div class="button"> <img src="assets/img/1.png"/> </div>
-  
-  
-  </div>
-  
-  
-  
-  
-  <script src="assets/js/app.js"></script>
-  </body>
+  <body>
+  <div class="lightbox beyonce hide">
+    <span class="close-button" href="#">&times;</span>
+    <span class="slay">Slay</span>
+    <div class= "audio">
+      <audio controls loop>
+        <source src="assets/sounds/xo.m4a">
+    </audio>
+    </div>
+  </div>
+
+  <div class="wrapper">
+    <div class="column nav">
+      <ul>
+        <li data-button="to" class="nav-item">To</li>
+        <li data-button="the" class="nav-item">The</li>
+        <li data-button="moon" class="nav-item">Moon</li>
+        <li data-button="and" class="nav-item">And</li>
+        <li data-button="back" class="nav-item">Back</li>
+      </ul>
+    </div>
+    <div class="column content">
+      <div class="about-text hide">
+      </div>
+    </div>
+  </div>
+
+
+    <script src="assets/js/app.js"></script>
+
+  </body>
 </html>
