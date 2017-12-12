@@ -1,9 +1,9 @@
 * { vertical-align: top; }
 
-body{ font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
-font-size: 63px;
-background:#64A0FF;
-color: aliceblue;
+body{ font-family: "bree-serif";
+font-size: 35px;
+background: #E05E5E;
+color: #fff;
 letter-spacing: 5px;
 background-image:url(../img/note.png);
 background-size: 1900px 1200px;
@@ -19,17 +19,14 @@ background-repeat: no-repeat;
 	
 }
 
+
 a{
 	color: antiquewhite;
 	font-size: 70px;
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%,-540%);
+	transform: translate(-50%,-300%);
 	justify-content: center;
 	width: 500px;
-}
-
-img{
-	width: 700px;
 }

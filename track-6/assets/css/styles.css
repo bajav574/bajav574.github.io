@@ -7,25 +7,30 @@ body {
 margin: 0;
 padding: 0;
 font-size: 0;
-}
+font-family: "bree-serif";
+background: #985797;}
 
 html, body { height: 100%; }
 /* because body carries wrapper and column which dont have a set height*/
 
 .wrapper {
+background:cover;
 width: 120%;
 height: 100%;
 }
 
 .column {
-width: 40%;
+width: 50%;
 display: inline-block;
 height: 100%;
 }
 
 .content {
-background: #f1f1f1;
+background:cover;
+background: #985797;
 font-size: 20px;
+font-family: "bree-serif";
+color: #478967;
 }
 
 ul, li {
@@ -36,33 +41,34 @@ padding: 0
 }
 
 .nav-item {
-border: 1px solid #000;
-padding: 10px 20px;
+background:cover;
 display:inline-block;
-font-size: 20px;
-margin: 0 15px 15px 0;
+font-family: "bree-serif";
+font-size: 30px;
+padding: 10px 15px;
+color: #61C993;
+margin: 300px 20px 0px 30px;
 cursor: pointer;
 }
 
 /*to put these together means the one you're hovered over connect with active after functiopn*/
 .nav-item:hover, .nav-item.active {
-background: #000;
 color: #fff;
+transition: color 1s ease-in-out
 }
 
-.content.to { background:url(../img/1.png)}
-.content.the { background:url(../img/2.png) }
-.content.moon { background:url(../img/3.png) }
-.content.and { background:url(../img/4.png) }
-.content.back { background:url(../img/5.png) }
+.content.to { background:url(../img/2.png) no-repeat; background-size: auto 100%; }
+.content.the { background:url(../img/3.png) no-repeat; background-size: auto 100%; }
+.content.moon { background:url(../img/4.png) no-repeat; background-size: auto 100%; }
+.content.and { background:url(../img/5.png) no-repeat; background-size: auto 100%; }
+.content.back { background:url(../img/animu.gif) no-repeat; background-size: auto 100%; }
 
-img { 100%
-	450px; }
 
 .lightbox.beyonce {
 width: 100%;
 height: 100%;
 background: #000;
+background: cover;
 color: #fff;
 position: fixed;
 top: 0;

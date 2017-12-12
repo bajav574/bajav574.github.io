@@ -53,21 +53,21 @@ a:hover{
 	width: 400px;
 	color: #E13F42;
 	font-size: 25px;
-	margin: -700px 0px 0px 800px;
+	margin: -600px 0px 0px 600px;
 }
 
 .box2{
 	width: 400px;
 	color: #E13F42;
 	font-size: 25px;
-	margin: -400px 0px 0px -200px;
+	margin: -400px 0px 0px 0px;
 }
 
 .box3{
 	width: 400px;
 	color: #E13F42;
 	font-size: 25px;
-	margin: -600px 0px 0px -200px;
+	margin: -800px 0px 0px 600px;
 }
 
 
